@@ -5,6 +5,7 @@ import Blogs from "./pages/Blogs";
 import CreateBlog from "./pages/CreateBlog";
 import Navbar from "./components/Navbar";
 import MyBlogs from "./pages/MyBlogs";
+import Footer from "./components/Footer";
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
         <Route path="/register" element={<Register />} />
         <Route path="/create" element={<CreateBlog />} />
       </Routes>
+      <Footer />
     </BrowserRouter>
   );
 }
